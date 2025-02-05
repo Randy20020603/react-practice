@@ -3,9 +3,10 @@ import './App.css';
 import ListGroup from './components/ListGroup';
 
 function App() {
+  const lebron = 'Lebron'
   return (
     <div>
-      <Message></Message>
+      <Message name={lebron}></Message>
       <ListGroup/>
     </div>
   );
