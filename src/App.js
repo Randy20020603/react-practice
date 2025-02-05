@@ -1,7 +1,9 @@
-import Message from './messege';
+import Message from './components/messege';
 import './App.css';
 import ListGroup from './components/ListGroup';
 import Student from './components/Students';
+import UserGreeting from './components/UserGreeting';
+import Football from './components/football';
 
 function App() {
   const lebron = 'Lebron'
@@ -13,6 +15,8 @@ function App() {
       <Student name="Ja Morrant" age = {24} isStutent = {true}></Student>
       <Student name="Julien Zwiers" age = {21} isStutent = {true}></Student>
       <Student></Student>
+      <UserGreeting isLoggedIn= {false}></UserGreeting>
+      <Football></Football>
     </div>
   );
 }
