@@ -17,8 +17,6 @@ function App() {
       <Student name="Julien Zwiers" age = {21} isStutent = {true}></Student>
       <Student></Student>
       <UserGreeting isLoggedIn= {false}></UserGreeting>
-      <Football></Football>
-      <MyForm></MyForm>
     </div>
   );
 }
