@@ -6,6 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import MyForm from './components/Form';
 import Football from './components/football';
+import Counter from './components/Counter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
         <Route path="/*" element={<App />} />
           <Route path="form" element={<MyForm />} />
           <Route path="ball" element={<Football />} />
+          <Route path="count" element={<Counter />} />          
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
