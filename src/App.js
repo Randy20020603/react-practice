@@ -4,6 +4,7 @@ import ListGroup from './components/ListGroup';
 import Student from './components/Students';
 import UserGreeting from './components/UserGreeting';
 import Football from './components/football';
+import MyForm from './components/Form';
 
 function App() {
   const lebron = 'Lebron'
@@ -17,6 +18,7 @@ function App() {
       <Student></Student>
       <UserGreeting isLoggedIn= {false}></UserGreeting>
       <Football></Football>
+      <MyForm></MyForm>
     </div>
   );
 }
