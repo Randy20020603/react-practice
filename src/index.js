@@ -7,6 +7,11 @@ import reportWebVitals from './reportWebVitals';
 import MyForm from './components/Form';
 import Football from './components/football';
 import Counter from './components/Counter';
+import UseEffect from './components/UseEffect';
+import UseContext from './components/UseContext';
+import UseRef from './components/UseRef';
+import ParentComponent from './components/Memo';
+import UseMemo from './components/UseMemo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +21,12 @@ root.render(
         <Route path="/*" element={<App />} />
           <Route path="form" element={<MyForm />} />
           <Route path="ball" element={<Football />} />
-          <Route path="count" element={<Counter />} />          
+          <Route path="count" element={<Counter />} />
+          <Route path="useeffect" element={<UseEffect />} />
+          <Route path="usecontext" element={<UseContext />} />
+          <Route path="useref" element={<UseRef />} />
+          <Route path="memo" element={<ParentComponent />} />
+          <Route path="usememo" element={<UseMemo />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
